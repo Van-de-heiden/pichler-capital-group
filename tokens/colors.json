@@ -1,0 +1,270 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "meta": {
+    "brand": "Pichler Capital Group",
+    "description": "Core colour tokens for the Pichler Capital Group design system.",
+    "version": "0.1.0"
+  },
+  "base": {
+    "white": {
+      "$type": "color",
+      "$value": "#FFFFFF",
+      "$description": "Primary clean background and text colour on dark surfaces."
+    },
+    "ivory": {
+      "$type": "color",
+      "$value": "#F8F5EF",
+      "$description": "Warm premium background tone for editorial sections and calm surfaces."
+    },
+    "black": {
+      "$type": "color",
+      "$value": "#000000",
+      "$description": "Reserved for technical use only. Prefer neutral.ink for brand UI text."
+    }
+  },
+  "brand": {
+    "bordeaux": {
+      "50": {
+        "$type": "color",
+        "$value": "#F7EDEF",
+        "$description": "Very light Bordeaux tint for subtle backgrounds."
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#E8C9CF",
+        "$description": "Light Bordeaux tint for soft selected states."
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#B45C6A",
+        "$description": "Muted Bordeaux for supporting highlights."
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#7A1D2B",
+        "$description": "Core Bordeaux for strong accents and secondary brand moments."
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#6A1523",
+        "$description": "Primary interactive Bordeaux for CTAs and active states."
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#5A0F1B",
+        "$description": "Signature Bordeaux and primary brand colour."
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#3F0812",
+        "$description": "Dark Bordeaux for hover states and deep brand surfaces."
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#26050B",
+        "$description": "Deepest Bordeaux for dramatic overlays and rare high-authority usage."
+      }
+    }
+  },
+  "neutral": {
+    "ink": {
+      "$type": "color",
+      "$value": "#151417",
+      "$description": "Primary text colour; softer and more refined than pure black."
+    },
+    "charcoal": {
+      "$type": "color",
+      "$value": "#262126",
+      "$description": "Dark premium surface for footers, panels and overlays."
+    },
+    "graphite": {
+      "$type": "color",
+      "$value": "#3B3638",
+      "$description": "Secondary dark tone for interface depth."
+    },
+    "slate": {
+      "$type": "color",
+      "$value": "#5B5558",
+      "$description": "Muted text and icon colour on light surfaces."
+    },
+    "taupe": {
+      "$type": "color",
+      "$value": "#A99D90",
+      "$description": "Warm secondary neutral for subtle labels and refined UI details."
+    },
+    "stone": {
+      "$type": "color",
+      "$value": "#D8D2C8",
+      "$description": "Soft border and division colour."
+    },
+    "mist": {
+      "$type": "color",
+      "$value": "#EEEAE3",
+      "$description": "Light neutral background for panels and quiet section contrast."
+    }
+  },
+  "accent": {
+    "gold": {
+      "300": {
+        "$type": "color",
+        "$value": "#D8C58B",
+        "$description": "Light muted gold accent for subtle premium details."
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#B89B5E",
+        "$description": "Primary muted gold accent; use sparingly."
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#7F6736",
+        "$description": "Dark muted gold for high-contrast accents on light surfaces."
+      }
+    }
+  },
+  "semantic": {
+    "positive": {
+      "$type": "color",
+      "$value": "#2F6B4F",
+      "$description": "Positive indicators, gains and confirmations."
+    },
+    "positiveSoft": {
+      "$type": "color",
+      "$value": "#E6F1EB",
+      "$description": "Soft positive background."
+    },
+    "negative": {
+      "$type": "color",
+      "$value": "#9C2F3A",
+      "$description": "Negative indicators, losses and destructive actions."
+    },
+    "negativeSoft": {
+      "$type": "color",
+      "$value": "#F5E7E9",
+      "$description": "Soft negative background."
+    },
+    "warning": {
+      "$type": "color",
+      "$value": "#A66A1F",
+      "$description": "Warnings and attention states."
+    },
+    "warningSoft": {
+      "$type": "color",
+      "$value": "#F7EEDC",
+      "$description": "Soft warning background."
+    },
+    "info": {
+      "$type": "color",
+      "$value": "#2F536B",
+      "$description": "Informational states and neutral system notices."
+    },
+    "infoSoft": {
+      "$type": "color",
+      "$value": "#E6EEF2",
+      "$description": "Soft informational background."
+    }
+  },
+  "surface": {
+    "page": {
+      "$type": "color",
+      "$value": "{base.white}",
+      "$description": "Default page background."
+    },
+    "pageWarm": {
+      "$type": "color",
+      "$value": "{base.ivory}",
+      "$description": "Warm page background."
+    },
+    "card": {
+      "$type": "color",
+      "$value": "{base.white}",
+      "$description": "Default card surface."
+    },
+    "cardMuted": {
+      "$type": "color",
+      "$value": "{neutral.mist}",
+      "$description": "Muted card or panel surface."
+    },
+    "inverse": {
+      "$type": "color",
+      "$value": "{neutral.charcoal}",
+      "$description": "Dark premium surface."
+    }
+  },
+  "text": {
+    "primary": {
+      "$type": "color",
+      "$value": "{neutral.ink}",
+      "$description": "Primary readable text."
+    },
+    "secondary": {
+      "$type": "color",
+      "$value": "{neutral.slate}",
+      "$description": "Secondary text and supporting descriptions."
+    },
+    "muted": {
+      "$type": "color",
+      "$value": "{neutral.taupe}",
+      "$description": "Muted labels and low-emphasis copy."
+    },
+    "inverse": {
+      "$type": "color",
+      "$value": "{base.ivory}",
+      "$description": "Text on dark surfaces."
+    },
+    "brand": {
+      "$type": "color",
+      "$value": "{brand.bordeaux.700}",
+      "$description": "Brand-coloured text accent."
+    }
+  },
+  "border": {
+    "subtle": {
+      "$type": "color",
+      "$value": "{neutral.mist}",
+      "$description": "Very subtle borders and dividers."
+    },
+    "default": {
+      "$type": "color",
+      "$value": "{neutral.stone}",
+      "$description": "Default border colour."
+    },
+    "strong": {
+      "$type": "color",
+      "$value": "{neutral.taupe}",
+      "$description": "Stronger border or separator colour."
+    },
+    "brand": {
+      "$type": "color",
+      "$value": "{brand.bordeaux.700}",
+      "$description": "Brand border accent."
+    }
+  },
+  "interactive": {
+    "primary": {
+      "$type": "color",
+      "$value": "{brand.bordeaux.700}",
+      "$description": "Primary interactive background."
+    },
+    "primaryHover": {
+      "$type": "color",
+      "$value": "{brand.bordeaux.800}",
+      "$description": "Primary interactive hover background."
+    },
+    "primaryText": {
+      "$type": "color",
+      "$value": "{base.white}",
+      "$description": "Text on primary interactive backgrounds."
+    },
+    "secondary": {
+      "$type": "color",
+      "$value": "{neutral.charcoal}",
+      "$description": "Secondary dark interactive background."
+    },
+    "secondaryHover": {
+      "$type": "color",
+      "$value": "{neutral.ink}",
+      "$description": "Secondary hover background."
+    }
+  }
+}
